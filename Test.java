@@ -22,10 +22,17 @@ public class Test{
         // System.out.println(message.trim());
         // System.out.println(message);
 
-        int [] numbers = new int[5];
-        numbers[0] = 1;
-        numbers[1] = 2;
-        numbers[2] = 3;
-        System.out.println(Arrays.toString(numbers));
+        // int [] numbers = new int[5];
+        // numbers[0] = 1;
+        // numbers[1] = 2;
+        // numbers[2] = 3;
+        // System.out.println(Arrays.toString(numbers));
+        // int[] numbers= {2,3,5,1,4};
+        // Arrays.sort(numbers);
+        // System.out.println(Arrays.toString(numbers));
+        // int [][] numbers = new int[2][3];
+        // numbers[0][0] = 1;
+        int[][] numbers = {{1,2,3}, {4,5,6}};
+        System.out.println(Arrays.deepToString(numbers));
     }
 }
