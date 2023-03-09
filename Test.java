@@ -32,7 +32,25 @@ public class Test{
         // System.out.println(Arrays.toString(numbers));
         // int [][] numbers = new int[2][3];
         // numbers[0][0] = 1;
-        int[][] numbers = {{1,2,3}, {4,5,6}};
-        System.out.println(Arrays.deepToString(numbers));
+        // int[][] numbers = {{1,2,3}, {4,5,6}};
+        // System.out.println(Arrays.deepToString(numbers));
+        
+        // final float pi = 3.14F;  // final is the same as const in C#;
+           
+        // double result = (double) 10 / (double) 3;
+        // System.out.println(result);
+
+        // int x = 1;
+        // int y = ++x;
+        // System.out.println("x: " + x);
+        // System.out.println("y: " + y);
+
+        // byte > short > int > long > float > double
+        double x = 1.1;
+        double y = x + 2; // 2.0
+        System.out.println(y);
+
+        
+        
     }
 }
